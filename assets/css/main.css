@@ -2013,7 +2013,7 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			line-height: 8; /* changed this */
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -2205,7 +2205,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 8em; /* changed this from 1.5 */
 			}
 
 /* Labeled Icons */
