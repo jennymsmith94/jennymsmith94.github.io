@@ -748,7 +748,7 @@ $size-header-pad: 4em;
 
 		li {
 			display: inline-block;
-			padding: 0 3em 0 0; /* was 1.5 */
+			padding: 0 1.5em 0 0; /* was 1.5 */
 
 			&:last-child {
 				padding-right: 0;
@@ -756,7 +756,7 @@ $size-header-pad: 4em;
 
 			.icon {
 				&:before {
-					font-size: 3em; /* was 1.5 */
+					font-size: 1.5em; /* was 1.5 */
 				}
 			}
 		}
