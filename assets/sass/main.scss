@@ -767,8 +767,8 @@ $size-header-pad: 4em;
 		padding: 0;
 
 		li {
-			line-height: 1.75em;
-			margin: 1.5em 0 0 0;
+			line-height:3em; /* was 1.75 */
+			margin: 3em 0 0 0; /* was 1.75 */
 			padding-left: 2.25em;
 			position: relative;
 
