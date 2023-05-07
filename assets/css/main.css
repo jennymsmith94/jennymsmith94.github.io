@@ -147,12 +147,12 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 10em; /* was 2em */
+		line-height: 10em; /* was 1.5em */
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.25em; /* was 1.5em */
 		line-height: 1.5em;
 	}
 
@@ -2099,7 +2099,7 @@ input, select, textarea {
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			border-radius: .35em; /* was .35 */
 			display: block;
 		}
 
@@ -2628,7 +2628,11 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.35em;
+			line-height: 1.75em;
+			margin: 0;
+			/* color: #ffffff; */
 		}
 
 		#header h1 {
@@ -2640,7 +2644,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 20em; /* was 6.25 */
 		}
 
 /* Footer */
