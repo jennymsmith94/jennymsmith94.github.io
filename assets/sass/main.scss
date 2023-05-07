@@ -169,8 +169,8 @@ $size-header-pad: 4em;
 	}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 4em; /* was 2 */
+		line-height: 2em; /* was 1.5 */
 	}
 
 	h2 {
@@ -1114,7 +1114,7 @@ $size-header-pad: 4em;
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+			width: 12em; /* was 6.25 */
 		}
 	}
 
