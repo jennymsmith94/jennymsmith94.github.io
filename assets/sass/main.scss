@@ -1125,7 +1125,7 @@ $size-header-pad: 4em;
 
 	#footer {
 		.icons {
-			margin: (_size(element-margin)) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
+			margin: (_size(element-margin)*3) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
 
 			a {
 				color: _palette(accent2, fg-light);
@@ -1399,7 +1399,7 @@ $size-header-pad: 4em;
 					li {
 						border-left-width: 0;
 						display: block;
-						line-height: 2.25em;
+						line-height: 5em; /* was 2.25 */
 						margin-left: 0;
 						padding-left: 0;
 					}
@@ -1477,7 +1477,7 @@ $size-header-pad: 4em;
 				background-size:		auto,							cover;
 				bottom: auto;
 				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
+				padding: $size-header-pad $size-header-pad ($size-header-pad * 3) $size-header-pad; /* was 1.5 */
 				position: relative;
 				text-align: center;
 				width: 100%;
