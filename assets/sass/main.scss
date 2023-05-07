@@ -566,7 +566,8 @@ $size-header-pad: 4em;
 		@include icon;
 		border-bottom: none;
 		position: relative;
-		bottom: 8em; /* THIS LINE DOES STUFF */
+		bottom: 20em; /* THIS LINE DOES STUFF */
+		size: 10em; /* this line wasn't here */
 
 		> .label {
 			display: none;
