@@ -1107,14 +1107,14 @@ $size-header-pad: 4em;
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 6em; /*was 1.35 */
-			line-height: 5em; /* was 1.75 */
+			font-size: 10em; /*was 1.35 */
+			line-height: 9em; /* was 1.75 */
 			margin: 0;
 		}
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 16em; /* was 6.25 THIS IS WHAT CHANGES IT */
+			width: 20em; /* was 6.25 THIS IS WHAT CHANGES IT */
 		}
 	}
 
