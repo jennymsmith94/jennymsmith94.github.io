@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/JTree.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3082,7 +3082,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/JTree.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3127,7 +3127,7 @@ input, select, textarea {
 		/* Basic */
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 4em; /* was 1.5 */
 			}
 
 			h2 {
@@ -3155,7 +3155,7 @@ input, select, textarea {
 			}
 
 				ul.labeled-icons li h3 {
-					line-height: 1.75em;
+					line-height: 4em; /* was 1.75 */
 				}
 
 		/* Header */
@@ -3165,7 +3165,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.35em;
+					font-size: 4em; /* was 1.35 */
 				}
 
 		/* Footer */

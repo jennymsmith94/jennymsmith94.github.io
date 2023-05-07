@@ -1074,7 +1074,7 @@ $size-header-pad: 4em;
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								scroll;
-		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('../../images/JTree.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								150%;
@@ -1103,12 +1103,15 @@ $size-header-pad: 4em;
 
 		h2, h3, h4, h5, h6 {
 			color: _palette(accent2, fg-bold);
+			font-size:4em; /*the following 3 lines were not there originally */
+			line-height: 4em; 
+			margin: 0;
 		}
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 10em; /*was 1.35 */
-			line-height: 9em; /* was 1.75 */
+			font-size:6em; /*was 1.35 */
+			line-height: 6em; /* was 1.75 */
 			margin: 0;
 		}
 
@@ -1122,7 +1125,7 @@ $size-header-pad: 4em;
 
 	#footer {
 		.icons {
-			margin: (_size(element-margin) * 0.5) 0 0 0;
+			margin: (_size(element-margin)) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
 
 			a {
 				color: _palette(accent2, fg-light);
@@ -1468,7 +1471,7 @@ $size-header-pad: 4em;
 			#footer {
 				background-attachment:	scroll;
 				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
+				background-image:		url('images/overlay.png'),		url('../../images/JTree.jpg');
 				background-position:	top left,						bottom center;
 				background-repeat:		repeat,							no-repeat;
 				background-size:		auto,							cover;
@@ -1480,7 +1483,7 @@ $size-header-pad: 4em;
 				width: 100%;
 
 				.icons {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
+					margin: 0 0 (_size(element-margin) ) 0; /* was multiplied by .5 */
 				}
 
 				.copyright {
