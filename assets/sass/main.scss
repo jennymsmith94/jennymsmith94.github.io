@@ -746,7 +746,7 @@ $size-header-pad: 4em;
 
 		li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 3em 0 0; /* was 1.5 */
 
 			&:last-child {
 				padding-right: 0;
@@ -754,7 +754,7 @@ $size-header-pad: 4em;
 
 			.icon {
 				&:before {
-					font-size: 1.5em;
+					font-size: 3em; /* was 1.5 */
 				}
 			}
 		}
@@ -767,8 +767,8 @@ $size-header-pad: 4em;
 		padding: 0;
 
 		li {
-			line-height: 1.75em;
-			margin: 1.5em 0 0 0;
+			line-height:3em; /* was 1.75 */
+			margin: 3em 0 0 0; /* was 1.75 */
 			padding-left: 2.25em;
 			position: relative;
 
@@ -1125,7 +1125,7 @@ $size-header-pad: 4em;
 
 	#footer {
 		.icons {
-			margin: (_size(element-margin)) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
+			margin: (_size(element-margin)*3) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
 
 			a {
 				color: _palette(accent2, fg-light);
@@ -1136,7 +1136,7 @@ $size-header-pad: 4em;
 			color: _palette(accent2, fg-light);
 			font-size: 0.8em;
 			list-style: none;
-			margin: (_size(element-margin) * 0.5) 0 0 0;
+			margin: (_size(element-margin) * 3) 0 0 0; /* was *.05 */
 			padding: 0;
 
 			li {
@@ -1399,7 +1399,7 @@ $size-header-pad: 4em;
 					li {
 						border-left-width: 0;
 						display: block;
-						line-height: 2.25em;
+						line-height: 5em; /* was 2.25 */
 						margin-left: 0;
 						padding-left: 0;
 					}
@@ -1477,13 +1477,13 @@ $size-header-pad: 4em;
 				background-size:		auto,							cover;
 				bottom: auto;
 				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
+				padding: $size-header-pad $size-header-pad ($size-header-pad * 3) $size-header-pad; /* was 1.5 */
 				position: relative;
 				text-align: center;
 				width: 100%;
 
 				.icons {
-					margin: 0 0 (_size(element-margin) ) 0; /* was multiplied by .5 */
+					margin: 0 0 (_size(element-margin) *3) 0; /* was multiplied by .5 */
 				}
 
 				.copyright {
@@ -1572,7 +1572,7 @@ $size-header-pad: 4em;
 		/* Footer */
 
 			#footer {
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad * 1.5) $size-header-pad; 
 			}
 
 		/* Main */
