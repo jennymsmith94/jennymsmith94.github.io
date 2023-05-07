@@ -566,6 +566,7 @@ $size-header-pad: 4em;
 		@include icon;
 		border-bottom: none;
 		position: relative;
+		bottom: 3em; /* this line was not here */
 
 		> .label {
 			display: none;
