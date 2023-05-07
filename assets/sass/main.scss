@@ -566,7 +566,7 @@ $size-header-pad: 4em;
 		@include icon;
 		border-bottom: none;
 		position: relative;
-		bottom: 3em; /* this line was not here */
+		bottom: 8em; /* THIS LINE DOES STUFF */
 
 		> .label {
 			display: none;
@@ -1126,7 +1126,7 @@ $size-header-pad: 4em;
 
 	#footer {
 		.icons {
-			margin: (_size(element-margin)*3) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
+			margin: (_size(element-margin)) 0 0 0; /*first value was multiplied by 0.5: (_size(element-margin) * 0.5) */
 
 			a {
 				color: _palette(accent2, fg-light);
