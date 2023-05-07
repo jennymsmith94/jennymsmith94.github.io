@@ -147,7 +147,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 4em; /* was 2em */
 		line-height: 1.5em;
 	}
 
@@ -2640,7 +2640,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 7.25em; /* was 6.25 */
 		}
 
 /* Footer */
