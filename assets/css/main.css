@@ -2650,7 +2650,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 3em 0 0 0; /* was 1em */
 	}
 
 		#footer .icons a {
