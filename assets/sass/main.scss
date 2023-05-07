@@ -1136,7 +1136,7 @@ $size-header-pad: 4em;
 			color: _palette(accent2, fg-light);
 			font-size: 0.8em;
 			list-style: none;
-			margin: (_size(element-margin) * 0.5) 0 0 0;
+			margin: (_size(element-margin) * 3) 0 0 0; /* was *.05 */
 			padding: 0;
 
 			li {
@@ -1483,7 +1483,7 @@ $size-header-pad: 4em;
 				width: 100%;
 
 				.icons {
-					margin: 0 0 (_size(element-margin) ) 0; /* was multiplied by .5 */
+					margin: 0 0 (_size(element-margin) *3) 0; /* was multiplied by .5 */
 				}
 
 				.copyright {
@@ -1572,7 +1572,7 @@ $size-header-pad: 4em;
 		/* Footer */
 
 			#footer {
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad * 1.5) $size-header-pad; 
 			}
 
 		/* Main */
