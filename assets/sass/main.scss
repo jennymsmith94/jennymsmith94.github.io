@@ -467,7 +467,7 @@ $size-header-pad: 4em;
 			font-size: 1em;
 			font-weight: _font(weight);
 			padding-left: (_size(element-height) * 0.6) + 0.75em;
-			padding-right: 0.75em;
+			padding-right: 0; /* changed from .75em */
 			position: relative;
 
 			&:before {
@@ -566,7 +566,7 @@ $size-header-pad: 4em;
 		@include icon;
 		border-bottom: none;
 		position: relative;
-		bottom: 20em; /* THIS LINE DOES STUFF */
+		bottom: 25em; /* THIS LINE DOES STUFF */
 		size: 10em; /* this line wasn't here */
 
 		> .label {
