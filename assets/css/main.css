@@ -2651,7 +2651,7 @@ input, select, textarea {
 
 	#footer .icons {
 		margin: 1em 0 0 0; /* was 1em */
-		/*padding: 1em; /* this line was not there */ */
+		/*padding: 1em; /* this line was not there */ 
 	}
 
 		#footer .icons a {
