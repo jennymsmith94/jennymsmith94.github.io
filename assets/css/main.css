@@ -2122,6 +2122,13 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.rightVid {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+			width: 100%; /*should make video bigger*/
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
